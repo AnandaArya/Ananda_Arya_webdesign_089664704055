@@ -1,0 +1,129 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  z-index: 999;
+}
+
+nav .navbar-brand, nav .nav-item a {
+  color: black !important;
+  text-shadow: 2px 2px 5px white;
+}
+
+@media (min-width: 992px) {
+  nav {
+    height: 100px;
+  }
+  nav .navbar-brand, nav .nav-item a {
+    color: white !important;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 700;
+  }
+  nav .navbar-brand {
+    font-size-: 24px;
+  }
+  nav .nav-item a {
+    font-size: 18px;
+  }
+}
+
+nav a {
+  font-weight: 700;
+}
+
+nav .btn-signup {
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  font-weight: 700;
+  color: white !important;
+}
+
+header.header-banner {
+  min-height: 700px;
+  background-image: url("../img/bg-header-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 992px) {
+  header.header-banner {
+    margin-top: -120px;
+  }
+}
+
+header.header-banner h2, header.header-banner p {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+header.header-banner h2 {
+  font-size: 40px;
+  margin-top: 240px;
+  font-weight: 700;
+}
+
+header.header-banner p {
+  font-size: 25px;
+}
+
+header.header-banner a {
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section.content-1 {
+  margin-top: 100px;
+}
+
+section.content-1 img {
+  border-radius: 20px;
+}
+
+section.content-2 {
+  margin-top: 130px;
+  background-color: #DFF4FF;
+}
+
+section.content-3 {
+  margin-top: 100px;
+}
+
+section.content-4 {
+  background-color: #DFF4FF;
+  min-height: 500px;
+}
+
+section.content-4 .card {
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02), 0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035), 0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+section.content-6 {
+  margin-top: 100px;
+  background-color: #DFF4FF;
+  min-height: 500px;
+}
+
+section.content-6 p {
+  font-size: 24px;
+}
+
+.footer-akhir {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-akhir h5 {
+  color: #2da8eb;
+}
+
+.footer-akhir a {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
